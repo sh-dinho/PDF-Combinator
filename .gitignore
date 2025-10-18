@@ -1,0 +1,26 @@
+# Create the file
+touch .gitignore
+
+# Open .gitignore and paste the following content:
+# --- Python Specific Exclusions ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+venv/
+env/
+requirements.txt
+Pipfile.lock
+
+ .vscode/
+
+# --- Media and Output Exclusions ---
+*.pdf 
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.tiff
+*.bmp
