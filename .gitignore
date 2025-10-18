@@ -14,7 +14,9 @@ env/
 requirements.txt
 Pipfile.lock
 
- .vscode/
+ # --- Editor and IDE Exclusions ---
+# VS Code specific files
+.vscode/
 
 # --- Media and Output Exclusions ---
 *.pdf 
